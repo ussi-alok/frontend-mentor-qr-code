@@ -9,3 +9,39 @@
     font-family: my-cool-font;
     src: url(./fonts/Outfit-Regular.ttf);
 }
+body{
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    background: hsl(212, 45%, 89%);
+}
+.container{
+    
+
+    width: 375px;
+    background: hsl(0, 0%, 100%);
+    padding: 15px;
+    border-radius: 15px;
+
+    display: grid;
+    grid: auto 1fr 2fr / auto;
+    gap: 15px;
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+h2{
+    font-size: 1.6rem;
+    color: hsl(218, 44%, 22%);
+}
+p{
+    color: hsl(220, 15%, 55%);
+}
+h2,p{
+    text-align: center;
+}
