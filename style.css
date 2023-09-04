@@ -9,6 +9,12 @@
     font-family: my-cool-font;
     src: url(./fonts/Outfit-Regular.ttf);
 }
+:root{
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-light-grey: hsl(212, 45%, 89%);
+    --clr-grayish-blue: hsl(220, 15%, 55%);
+    --clr-dark-blue: hsl(218, 44%, 22%);
+}
 body{
     
     
@@ -17,13 +23,13 @@ body{
     align-items: center;
     justify-content: space-evenly;
     height: 100vh;
-    background: hsl(212, 45%, 89%);
+    background:  var(--clr-light-grey);
 }
 .container{
     
 
     width: 375px;
-    background: hsl(0, 0%, 100%);
+    background:  var(--clr-white);
     padding: 15px;
     border-radius: 15px;
 
@@ -37,10 +43,10 @@ img{
 }
 h2{
     font-size: 1.6rem;
-    color: hsl(218, 44%, 22%);
+    color:  var(--clr-dark-blue);
 }
 p{
-    color: hsl(220, 15%, 55%);
+    color:  var(--clr-grayish-blue);
 }
 h2,p{
     text-align: center;
