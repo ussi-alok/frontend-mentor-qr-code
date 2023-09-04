@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 15px;
+    font-family: my-cool-font;
 }
 @font-face {
-    font-family: my-bold-font;
-    src: url(./fonts/Outfit-Bold.ttf);
+    font-family: my-cool-font;
+    src: url(./fonts/Outfit-Regular.ttf);
 }
